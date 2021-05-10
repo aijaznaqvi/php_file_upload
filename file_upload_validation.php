@@ -1,3 +1,7 @@
+
+    /**
+     * Added upload_max_filesize and post_max_size in admin htaccess file and added validation on the size of post request data and uploaded files.
+     */
     public function validateMassUpload ()
     {
         if ($this->getRequest()->isMethod(sfWebRequest::POST)) {
